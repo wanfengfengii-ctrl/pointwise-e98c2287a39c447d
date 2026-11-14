@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "kind": "cli",
+  "setup": [],
+  "verify": [
+    "python3",
+    "gc_check.py",
+    "baseline"
+  ],
+  "demo": [
+    "python3",
+    "gc_observe.py",
+    "all"
+  ]
+}
